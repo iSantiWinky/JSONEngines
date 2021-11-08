@@ -1,0 +1,155 @@
+{
+    "baseDatos": [
+        {
+            "id": 0,
+            "nombre": "vacio",
+            "code": "White"
+        },
+        {
+            "id": 1,
+            "nombre": "Platform",
+            "code": "Green"
+        },
+        {
+            "id": 2,
+            "nombre": "Moving Platform",
+            "code": "Pink"
+        },
+        {
+            "id": 3,
+            "nombre": "Fall Platform",
+            "code": "Yellow"
+        },
+        {
+            "id": 4,
+            "nombre": "Ammo",
+            "code": "A"
+        },
+        {
+            "id": 5,
+            "nombre": "Break Box",
+            "code": "B"
+        },
+        {
+            "id": 6,
+            "nombre": "Check Point",
+            "code": "CP"
+        },
+        {
+            "id": 7,
+            "nombre": "Coin",
+            "code": "C"
+        },
+        {
+            "id": 8,
+            "nombre": "Door Bottom",
+            "code": "DB"
+        },
+        {
+            "id": 9,
+            "nombre": "Door Left",
+            "code": "BL"
+        },
+        {
+            "id": 10,
+            "nombre": "Door Right",
+            "code": "DR"
+        },
+        {
+            "id": 11,
+            "nombre": "Door Top",
+            "code": "ST"
+        },
+        {
+            "id": 12,
+            "nombre": "Goal",
+            "code": "G"
+        },
+        {
+            "id": 13,
+            "nombre": "Heart",
+            "code": "H"
+        },
+        {
+            "id": 14,
+            "nombre": "Key",
+            "code": "K"
+        },
+        {
+            "id": 15,
+            "nombre": "Lever",
+            "code": "L"
+        },
+        {
+            "id": 16,
+            "nombre": "Start Level",
+            "code": "SL"
+        },
+        {
+            "id": 17,
+            "nombre": "Spikes",
+            "code": "S"
+        },
+        {
+            "id": 18,
+            "nombre": "Treasure",
+            "code": "T"
+        },
+        {
+            "id": 19,
+            "nombre": "Wall Block",
+            "code": "W"
+        },
+        {
+            "id": 20,
+            "nombre": "Wall Bottom",
+            "code": "WB"
+        },
+        {
+            "id": 21,
+            "nombre": "Wall Left",
+            "code": "WL"
+        },
+        {
+            "id": 22,
+            "nombre": "Wall Right",
+            "code": "WR"
+        },
+        {
+            "id": 23,
+            "nombre": "Wall Top",
+            "code": "WT"
+        },
+        {
+            "id": 24,
+            "nombre": "Wall BL",
+            "code": "WBL"
+        },
+        {
+            "id": 25,
+            "nombre": "Wall BR",
+            "code": "WBR"
+        },
+        {
+            "id": 26,
+            "nombre": "Wall LR",
+            "code": "WLR"
+        },
+        {
+            "id": 27,
+            "nombre": "Wall TB",
+            "code": "WTB"
+        },
+        {
+            "id": 28,
+            "nombre": "Wall TL",
+            "code": "WTL"
+        },
+        {
+            "id": 29,
+            "nombre": "Wall TR",
+            "code": "WTR"
+        }
+
+    ]
+}
