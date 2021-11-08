@@ -167,7 +167,7 @@ public class GridCreator : MonoBehaviour
                 if (letras[i, j] != 0 || letras[i,j]!=1 || letras[i, j] != 2 || letras[i, j] != 3)
                 {
                     Debug.Log(items.objectToInstatiate2.name);
-                    Instantiate(items.objectToInstatiate2, grid.debugTextArray[i, j].transform.position + new Vector3(0, 1, 0), Quaternion.identity);
+                    Instantiate(items.objectToInstatiate2, grid.debugTextArray[i, j].transform.position + items.objectToInstatiate2.transform.position, items.objectToInstatiate2.transform.rotation);
                 }
             }
         }

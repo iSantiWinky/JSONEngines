@@ -17,7 +17,7 @@ public class BaseDatosHandler : MonoBehaviour {
     // Use this for initialization
     void Awake () {
         string datos = File.ReadAllText(Application.dataPath + "/JSON/objetos.json");
-        string datosUWU = File.ReadAllText(Application.dataPath + "/JSON/Tarea.json");
+        string datosUWU = File.ReadAllText(Application.dataPath + "/JSON/Nivel2.json");
         //Debug.Log(datosUWU);
         bd = JsonUtility.FromJson<BaseDatosObjeto>(datos);
         tile = JsonUtility.FromJson<Tiles>(datosUWU);

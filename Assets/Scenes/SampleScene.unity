@@ -906,9 +906,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5aebd3c0c74ccc545b628798a8eb6b1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rows: 10
-  columns: 10
-  cellSize: 4
+  rows: 20
+  columns: 20
+  cellSize: 1
   offset: {x: 0, y: 0, z: 0}
   value: 1
   items: {fileID: 1454938278}
