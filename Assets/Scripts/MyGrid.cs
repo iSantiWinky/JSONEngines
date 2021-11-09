@@ -33,20 +33,20 @@ public class MyGrid
                 //Debug.Log(x + "," + z);
 
                 debugTextArray[x, z] = DebugText(gridArray[x, z].ToString(), null, GetWorldPosition(x, z) + new Vector3(cellSize, 0, cellSize) * .5f, 12, Color.white, TextAnchor.MiddleCenter);//Agregar offset 
-                Debug.DrawLine(GetWorldPosition(x, z), GetWorldPosition(x, z + 1), Color.white, 100f);
-                Debug.DrawLine(GetWorldPosition(x, z), GetWorldPosition(x + 1, z), Color.white, 100f);
+                Debug.DrawLine(GetWorldPosition(x, z), GetWorldPosition(x, z + Mathf.FloorToInt(offset.z)), Color.white, 100f);
+                Debug.DrawLine(GetWorldPosition(x, z), GetWorldPosition(x + Mathf.FloorToInt(offset.x), z), Color.white, 100f);
             }
             Debug.DrawLine(GetWorldPosition(0, height), GetWorldPosition(width, height), Color.white, 100f);
             Debug.DrawLine(GetWorldPosition(width, 0), GetWorldPosition(width, height), Color.white, 100f);
         }
     }
 
-    private Vector3 GetWorldPosition(int x, int z)
+    public Vector3 GetWorldPosition(int x, int z)
     {
         return new Vector3(x, 0, z) + offset * cellSize;
     }
 
-    private void GetXZ(Vector3 worldPos, out int x, out int z)
+    public void GetXZ(Vector3 worldPos, out int x, out int z)
     {
         x = Mathf.FloorToInt(worldPos.x / cellSize);
         z = Mathf.FloorToInt(worldPos.z / cellSize);

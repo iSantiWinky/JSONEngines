@@ -908,7 +908,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rows: 20
   columns: 20
-  cellSize: 1
+  cellSize: 2
   offset: {x: 0, y: 0, z: 0}
   value: 1
   items: {fileID: 1454938278}

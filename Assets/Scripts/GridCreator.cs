@@ -162,7 +162,10 @@ public class GridCreator : MonoBehaviour
 
                 if(colores[i,j]!=0)
                 {
-                    Instantiate(items.objectToInstatiate, grid.debugTextArray[i, j].transform.position, Quaternion.identity);
+                    Vector3 cellPos = grid.GetWorldPosition(rows, columns);
+                    grid.GetXZ(cellPos, out i, out j);
+
+                    Instantiate(items.objectToInstatiate, cellPos, Quaternion.identity);
                 }
                 if (letras[i, j] != 0 || letras[i,j]!=1 || letras[i, j] != 2 || letras[i, j] != 3)
                 {
